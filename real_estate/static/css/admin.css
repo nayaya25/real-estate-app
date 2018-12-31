@@ -16,9 +16,9 @@ div.breadcrumbs {
     background: #30caa0;
     color: #10284e;
 }
-div.breadcrumbs a {
+/* div.breadcrumbs a {
     background: #333;
-}
+} */
 
 .module h1, .module caption, .inline-group h2 {
     background: #30caa0;
