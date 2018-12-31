@@ -78,8 +78,11 @@ WSGI_APPLICATION = 'real_estate.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'real_estate_db',
+        'USER': 'postgres',
+        'PASSWORD': 'nayaya',
+        'HOST': 'localhost',
     }
 }
 
