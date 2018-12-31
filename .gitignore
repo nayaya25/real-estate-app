@@ -3,6 +3,7 @@
 *.pyc
 local_settings.py
 db.sqlite3
-media
+/media
 __pycache__/
 virtualEnv
+/static
