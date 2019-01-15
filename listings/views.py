@@ -16,7 +16,6 @@ def index(request):
         'state_choices': state_choices,
         'price_choices': price_choices,
         'bedroom_choices': bedroom_choices,
-        'query_list': query_list
     }
     return render(request, 'listings/listings.html', context)
 
