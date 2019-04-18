@@ -1,3 +1,4 @@
+import django_heroku
 """
 Django settings for real_estate project.
 
@@ -145,3 +146,6 @@ EMAIL_PORT = 587
 EMAIL_HOST_USER = 'nayayaibrahim21@gmail.com'
 EMAIL_HOST_PASSWORD = 'ibm26711'
 EMAIL_USE_TLS = True
+
+# Configure Django App for Heroku.
+django_heroku.settings(locals())
