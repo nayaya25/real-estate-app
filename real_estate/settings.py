@@ -26,7 +26,7 @@ SECRET_KEY = '9&utp)4j2og(j32*8@qv*ou-8_^&57kkb+@t83ne#esmq=k%9l'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["https://real-estate-6111.herokuapp.com"]
+ALLOWED_HOSTS = ["https://real-estate-6111.herokuapp.com/"]
 
 
 # Application definition
